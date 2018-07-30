@@ -1,6 +1,0 @@
-=============== Jul 30, 2018 (BST) ===============
-00:36:30.035867 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-00:36:30.036495 db@open opening
-00:36:30.036795 version@stat F·[] S·0B[] Sc·[]
-00:36:30.037021 db@janitor F·2 G·0
-00:36:30.037043 db@open done T·534.399µs

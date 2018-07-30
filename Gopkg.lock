@@ -63,7 +63,6 @@
 [[projects]]
   name = "github.com/tendermint/abci"
   packages = [
-    "example/code",
     "server",
     "types"
   ]
@@ -168,6 +167,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "894cdc23200fd590b6580355e5ca4cd4ad2b29924bb73d8be704f7c509fe3a41"
+  inputs-digest = "7c13bdfe1c4e872211b0bc5cce6360bb0c810cedd843b38d88ba089a85df5c9a"
   solver-name = "gps-cdcl"
   solver-version = 1

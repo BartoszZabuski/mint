@@ -1,0 +1,19 @@
+version: '3'
+services:
+  mongo_1:
+    image: "mongo:latest"
+    ports:
+     - "27017:27017"
+    networks:
+     - "test"
+  mint_1:
+    image: "mint:latest"
+    environment:
+      - MONGO_URL="mongodb://mongo_1:27017"
+    depends_on:
+      - mongo_1
+    networks:
+      - "test"
+
+networks:
+  test:
